@@ -16,8 +16,8 @@
       <li v-for="direction in recipe.formatted.directions">{{ direction }}</li>
     </ol>
 
-    <router-link class="btn btn-info" :to=" '/recipes/' + recipe.id + '/edit' ">Edit</router-link>
-    <button class="btn btn-info" v-on:click="destroyRecipe()">Delete</button>
+    <router-link class="btn btn-secondary" :to=" '/recipes/' + recipe.id + '/edit' ">Edit</router-link>
+    <button class="btn btn-secondary" v-on:click="destroyRecipe()">Delete</button>
 
   </div>
 </template>

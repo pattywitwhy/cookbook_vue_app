@@ -25,7 +25,7 @@
         Image URL: <input v-model="recipe.image_url">
       </div>
 
-      <input type="submit" value="Update">
+      <input type="submit" value="Update" class="btn btn-secondary">
     </form>
 
   </div>
